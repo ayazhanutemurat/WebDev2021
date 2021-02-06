@@ -1,0 +1,62 @@
+html {
+    font-size: 18px;
+    background-color:black;
+  }
+
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Luckiest Guy', cursive;
+    font-size: .77rem;
+    font-weight: bold;
+  }
+  
+  .header .logo {
+    font-size: 30px;
+    color: #e4703a;
+  }
+  
+  .header li {
+    display: inline;
+    padding-right: 2.22rem;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .name{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 0.9px;
+    color: #e4703a;
+  }
+
+  p{
+    color: #ffffff;
+
+  }
+  .first-letter {
+    float: left;
+    padding-right: 1.4rem;
+    font-size: 7.44rem;
+    line-height: .87;
+  }
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 800px;
+  }
+  img{
+      width: 940px;
+
+
+  }
+
+

@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://wallpaperscave.ru/images/original/18/08-06/animals-fish-73600.jpg);
+    background-size: cover;
+}
+
+#visit, h1, h2{
+    background-color: darkmagenta;
+}
+
+p, li{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color:ghostwhite;
+}

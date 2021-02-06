@@ -1,0 +1,74 @@
+body{
+  background-image: url(https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2017/11/Sugar-Cookie-Recipe-1-of-1.jpg);
+  background-size: cover;
+  }
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: rgb(235, 166, 38);
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+  }  
+  .header .logo {
+    font-size: 30px;
+    color: #e4703a;
+  }
+  
+  .header li {
+    display: inline;
+    padding-right: 2.22rem;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.description {
+    font-size: 20px;
+  }
+  th {
+    border: 2px solid #8c6b48;
+  }
+  
+  table {
+    text-align: center;
+    margin: 5px ;
+  }
+  
+  td {
+    border: 2px solid #8c6b48;
+    width: 100px;
+  }  
+#cook-time {
+    font-weight: bold;
+  }
+  
+  .ingredients {
+    list-style: square;
+  }
+  
+  p.step {
+    color: gray;
+  }
+  
+  .external-link {
+    color: #e4703a;
+  }
+  
+  h1,h2,p,li {
+    font-family:Helvetica;
+  }
+
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 800px;
+    background-color: #eecc70;
+  }
