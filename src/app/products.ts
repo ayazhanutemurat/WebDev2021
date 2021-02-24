@@ -1,0 +1,58 @@
+import {Product} from './product';
+
+export const PRODUCTS: Product[] =[
+    {name:'HP EliteBook 840 G6 14" Notebook -Core i7 i7-8565U - 16 GB RAM - 512 GB SSD - Windows 10 Pro - in-Plane Switching (IPS) Technology', 
+    link:'https://www.amazon.com/HP-EliteBook-840-Notebook-Plane/dp/B07VBHBRM1/ref=sr_1_18?dchild=1&qid=1614098091&s=computers-intl-ship&sr=1-18',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/811p1jxp2pL._AC_UL480_FMwebp_QL65_.jpg' },
+    {name:'Apple MacBook Air (13-inch Retina Display, 8GB RAM, 256GB SSD Storage) - Gold (Previous Model)', 
+    link:'https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08636NKF8/ref=sr_1_5?dchild=1&keywords=mac&qid=1614109788&s=pc&sr=1-5',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/71thf1SYnGL._AC_UY327_QL65_.jpg' },
+    {name:'Smart Buy ELITEBOOK 840 G7 I7-10610U 14IN 16GB 512GB English Keyboard - Intel Optane Memory Ready - 17.25 Hour Bat ', 
+    link:'https://www.amazon.com/Smart-ELITEBOOK-I7-10610U-14IN-512GB/dp/B08D3XCXX5/ref=sr_1_5?dchild=1&qid=1614107140&rnid=13896617011&s=computers-intl-ship&sr=1-5',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/61ydql4SB5L._AC_UL480_QL65_.jpg' },
+    {name:'New Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core i7) - Space Gray', 
+    link:'https://www.amazon.com/Apple-MacBook-16-Inch-512GB-Storage/dp/B081FZV45H/ref=sr_1_1?dchild=1&keywords=mac&qid=1614109788&s=pc&sr=1-1',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_QL65_.jpg' },
+    {name:'Samsung Galaxy Chromebook 13.3" UHD AMOLED - HD Intel Core I-5 Processor (256GB Storage, 8GB RAM) - 2020 Model - US Warranty - Fiesta Red - XE930QCA-K01US', 
+    link:'https://www.amazon.com/Samsung-Galaxy-Chromebook-13-3-AMOLED/dp/B088T2C912/ref=sr_1_13?dchild=1&keywords=samsung&qid=1614109585&s=pc&sr=1-13',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/81peks6yuTL._AC_UY327_QL65_.jpg' },
+    
+    {name:'GS65 STEALTH-838 I7/2.6 32GB 512GB W10P', 
+    link:'https://www.amazon.com/GS65-STEALTH-838-32GB-512GB-W10P/dp/B088YK3P4W/ref=sr_1_25?dchild=1&qid=1614107140&rnid=13896617011&s=computers-intl-ship&sr=1-25',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/51d12zKmyxL._AC_UL480_QL65_.jpg' },
+    {name:'TopSeller TP P53 E-2276M 2.8G 32GB 1TB SSD 15.6IN NONTCH W10P', 
+    link:'https://www.amazon.com/TopSeller-2276M-2-8G-15-6IN-NONTCH/dp/B086LJGBKN/ref=sr_1_26?dchild=1&qid=1614107140&rnid=13896617011&s=computers-intl-ship&sr=1-26',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/416DtWpzjHL._AC_UL480_QL65_.jpg' },
+    {name:'Dell 12.3" Latitude 5290 Multi-Touch 2-in-1 Laptop - 12.3" WUXGA+ - 1.9GHz Intel Core i7-8650U Quad-Core - 16GB RAM | 512GB SSD', 
+    link:'https://www.amazon.com/Latitude-7420-11-1135-256GB-14IN/dp/B08V98K2BW/ref=sr_1_31?dchild=1&qid=1614107147&rnid=13896617011&s=computers-intl-ship&sr=1-31',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/91CQCrXndiL._AC_UL480_QL65_.jpg' },
+    {name:'Latitude 7420 2-in-1 I5 11-1135 G7 8GB 256GB SSD 14IN W10 WLS TCH', 
+    link:'https://www.amazon.com/Latitude-7420-11-1135-256GB-14IN/dp/B08V98K2BW/ref=sr_1_31?dchild=1&qid=1614107147&rnid=13896617011&s=computers-intl-ship&sr=1-31',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/51k0GyU080L._AC_UL480_QL65_.jpg' },
+    {name:'SAMSUNG XE350XBA-K01US Chromebook 4 + Chrome OS 15.6" Full HD Intel Celeron Processor N4000 4GB RAM 32Gb Emmc Gigabit Wi-Fi, Silver', 
+    link:'https://www.amazon.com/Samsung-Chromebook-Plus-Camera-Chrome/dp/B07J215RPT/ref=sr_1_1?dchild=1&keywords=samsung&qid=1614109585&s=pc&sr=1-1',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/81mX-4s+guL._AC_UY327_QL65_.jpg' },
+    {name:'Samsung Galaxy Book Flex Alpha 13.3-inch FHD Touch Screen 512GB SSD 1.8GHz i7 2-in-1 Laptop (12GB RAM, Quad-Core i7-10510U, 360° Flip-and-Fold Design, Windows 10 Home) Royal Silver, NP730QCJ', 
+    link:'https://www.amazon.com/Samsung-13-3-inch-Quad-Core-i7-10510U-NP730QCJ-K02US/dp/B08LCPLKX1/ref=sr_1_11?dchild=1&keywords=samsung&qid=1614109585&s=pc&sr=1-11',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/61BW64b1C6L._AC_UY327_QL65_.jpg' },
+    {name:'Dell Latitude 5300 Laptop, 13.3" FHD (1920 x 1080) Non-Touch, Intel Core 8th Gen i7-8665U, 8GB RAM, 256GB SSD, Windows 10 Pro, XPI Bundle', 
+    link:'https://www.amazon.com/Dell-Latitude-5300-Non-Touch-i7-8665U/dp/B08F5LRSDW/ref=sr_1_6?dchild=1&qid=1614107140&rnid=13896617011&s=computers-intl-ship&sr=1-6',
+    rating: 4,
+    imagelinks:'https://m.media-amazon.com/images/I/71x6Eij820L._AC_UL480_QL65_.jpg' },
+
+
+
+
+
+]
