@@ -1,0 +1,25 @@
+
+
+.products{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px 15px;
+    
+}
+
+button {
+	top:330px;
+    left: 0;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 160px;
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+
+    
+}
+

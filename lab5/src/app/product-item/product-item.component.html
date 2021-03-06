@@ -1,0 +1,41 @@
+ <!-- Product card header (name with link) -->
+ <h3>
+  <a href="{{ product.link }}" target="_blank">{{product.name}}</a>
+</h3>
+
+
+
+
+<!-- Product rating -->
+<p *ngIf="product.rating">
+  {{product.rating}} / 5
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Orange_star.svg/1200px-Orange_star.svg.png" width="15px">
+</p>
+
+
+
+<h4>
+  Likes: {{product.likes}}
+</h4>
+<!--<div class="product">
+  <img class = "features-icon" *ngIf="product.imagelinks" [src]="product.imagelinks" [alt]="product.name" >
+  <div class="product-text light-backgr" >
+      <a [href]="product.link" target="_blank">
+        <h3 class="header-text">{{product.name}}</h3>
+      </a>
+      <ngb-rating [(rate)]="product.rating" [max]="5" ></ngb-rating>
+      <pre>Rate: <b>{{product.rating}}</b></pre>
+      <h4>
+        Likes: {{product.likes}}
+      </h4>
+      
+    <div class="buttons">
+      <button class="button"> <a [href]="'https://telegram.me/share/url?url=' + product.link" target="_blank">Share via Telegram</a></button>
+      
+    </div>
+    
+  </div>
+</div>-->
+
+
+
