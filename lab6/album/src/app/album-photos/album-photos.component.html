@@ -1,0 +1,7 @@
+<ul *ngIf="photos.length">
+    <li *ngFor = "let photo of photos">
+        {{photo.id}} {{photo.title}}
+        <img *ngIf="photo.thumbnailUrl" [src]="photo.thumbnailUrl" [alt]="photo.name">
+    </li>
+
+</ul>
